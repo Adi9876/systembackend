@@ -17,9 +17,9 @@ app.use("/api/skills", skillsRoute);
 app.use("/api/auth", authRoutes);
 app.use("/api", userRoutes);
 
-// app.get("/",(req,res)=>{
-//     res.send("hi");
-// })
+app.get("/",(req,res)=>{
+    res.send("Hi server is up and running...");
+})
 
 // app.get("/api/protected", authenticateToken, (req, res) => {
 //   res.json({
